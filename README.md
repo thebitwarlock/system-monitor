@@ -15,19 +15,21 @@
     - Экранирование специальных символов (XSS-защита).
 
 ## Структура
+```
 resources/
-├── backend/                # C++ исходники и сторонние библиотеки
+├── backend/
 │   ├── main.cpp            # Точка входа, HTTP-сервер
 │   ├── system_res.h        # Структуры данных и объявления функций
 │   ├── system_res.cpp      # Реализация чтения /proc
 │   ├── httplib.h           # HTTP-библиотека (cpp-httplib)
 │   └── json.hpp            # JSON-библиотека (nlohmann/json)
-├── frontend/               # WebUI
+├── frontend/
 │   ├── index.html          # Структура страницы
 │   ├── style.css           # Стили (включая sticky header и подсветку)
 │   └── script.js           # Логика (запросы к API, сортировка, отрисовка)
 ├── Makefile                # Сборка проекта
 └── README.md               # Этот файл
+```            # Этот файл
 
 ## Сборка и запуск
 cd resources
