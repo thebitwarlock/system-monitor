@@ -1,0 +1,30 @@
+# C++ объектные файлы и исполняемые
+*.o
+*.obj
+*.exe
+*.out
+*.app
+system_monitor
+
+# Папка сборки
+resources/build/
+build/
+
+# Резервные копии редакторов
+*.swp
+*.swo
+*~
+*.bak
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# WSL / Linux
+.DS_Store
+Thumbs.db
+
+# Архивы (если случайно положили)
+*.tar.gz
+*.zip
+*.7z
