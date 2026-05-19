@@ -32,10 +32,12 @@ resources/
 ```
 
 ## Сборка и запуск
+```
 cd resources
 make
 ./system_monitor
 Откройте браузер и перейдите по адресу http://localhost:8080
+```
 
 ### Требования
 - Ubuntu 22.04 (или любой Linux с `/proc`)
